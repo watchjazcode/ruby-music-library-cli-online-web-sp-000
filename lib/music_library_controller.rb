@@ -28,6 +28,7 @@ class MusicLibraryController
       if input == 'list genres'
         list_genres
       end
+      
       input = gets 
     end
   end
