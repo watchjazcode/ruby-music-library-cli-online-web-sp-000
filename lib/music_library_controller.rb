@@ -66,7 +66,7 @@ class MusicLibraryController
   end
   
   def play_song
-    
+    puts 
   end
   
 end
