@@ -70,6 +70,9 @@ class MusicLibraryController
     input = gets
     sorted_songs = Song.all.sort_by {|song| song.name } 
     song = sorted_songs[input.to_i - 1]
+    if song == nil 
+      return nil
+    end
     puts "Playing #{song.name} by #{song.artist.name}"
   end
   
