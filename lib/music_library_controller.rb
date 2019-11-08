@@ -20,6 +20,8 @@ class MusicLibraryController
     input = gets
     while input != "exit"
       input = gets 
+      if input == list_songs()
+        
     end
   end
   
